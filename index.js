@@ -45,8 +45,17 @@ for(let i=0; i<array.length; i++){
     sum += array[i] / array.length
 
 }
-
 console.log(sum)
+
+const strArray=["rat", "cat", "baseball"]
+let final =0
+for(let i=0; i<strArray.length; i++){
+    
+    if(strArray[i].length > final ){
+        final = strArray[i].length
+    }
+}
+console.log(final)
 
 function count(n){
     if (n<1){
@@ -58,6 +67,7 @@ function count(n){
     }
 
 }
+
 console.log(count(13))
 
 //Part 2
